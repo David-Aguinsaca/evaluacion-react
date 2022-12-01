@@ -89,9 +89,13 @@ const Activity = () => {
 
     //contador de actividad
 
+    /* const [checkedState, setCheckedState] = useState(
+        new Array(data.length).fill(false)
+    ); */
+
     const handleCheck = () => {
 
-        setCountActivity([...countActivity, countActivity+1]);
+        setCountActivity(countActivity + 1);
 
     }
 
